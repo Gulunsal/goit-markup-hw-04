@@ -6,7 +6,7 @@ body {
     flex-direction:column;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-    width: 1440px;
+    
 }
 
 img {
@@ -121,13 +121,20 @@ ul {
 .section-first{
 
     background-color: #2e2f42;
-    width: 1440px;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg.jpg);
+     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     margin: 0 auto;
    
 }
 .section-first .container .header-big {
@@ -353,6 +360,10 @@ width: calc((100% - 72px) / 4);
  padding:0;
  
 }
+.section-four-container{
+    
+    padding:0 10%;
+}
 
 .portfolio-list {
     display: flex;
@@ -417,6 +428,9 @@ width: calc((100% - 72px) / 4);
 .footer-box {
     display: flex;
     align-items: baseline;
+    margin:0 10%;
+    
+    
 }
 .footer-logo-text{
     margin-right: 120px;
