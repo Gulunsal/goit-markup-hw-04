@@ -495,7 +495,8 @@ padding:120px 0;
      
 } 
 .footer-logo-text-container{ 
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-right: 120px;
     
 }
@@ -514,7 +515,7 @@ padding:120px 0;
 }
 
 .logo-footer-text {
-
+display:inline-block;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
