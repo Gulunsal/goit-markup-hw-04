@@ -495,32 +495,32 @@ padding:120px 0;
      
 } 
 .footer-logo-text-container{ 
+    
     display: flex;
     flex-direction: column;
     margin-right: 120px;
     
 }
-
-.link {
+.footer-logo-text-container a {
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
+}
+
+
+.logo-footer {
+    color: #f4f4fd;
     
 }
 
-.logo-footer {
-    display: inline-block;
-    color: #f4f4fd;
-    max-width: 264px;
-    margin-bottom: 16px;
-}
-
 .logo-footer-text {
-display:inline-block;
+    display: inline-block;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-bottom:16px;
+    
    
 }
 .footer-socials-list {
