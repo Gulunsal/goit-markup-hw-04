@@ -494,7 +494,8 @@ padding:120px 0;
     padding: 0 10%;
      
 } 
-.footer-logo-text-container{
+.footer-logo-text-container{ 
+    display: inline-block;
     margin-right: 120px;
     
 }
