@@ -87,6 +87,8 @@ ul {
 .link {
     text-decoration: none;
     padding: 24px 0;
+    color: #404bbf;
+    
 }
 
 .logotext {
@@ -105,6 +107,7 @@ ul {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    left:0;
     }
 
 .nav-menu .link {
@@ -216,10 +219,7 @@ background-color: #404bbf;
    margin:auto;
     
  }
- .section-two-list{
- 
-    
- }
+
 .mission-list {
     display:flex;
    
@@ -401,7 +401,7 @@ padding:120px 0;
 }
 .section-four .container {
    
-    padding:0;
+    padding:0 10%;
 
  
 }
@@ -492,7 +492,8 @@ padding:120px 0;
 .footer-box {
     display: flex;
     align-items: baseline;
-    padding: 10%;
+    padding: 0 10%;
+    background-color: #31d0aa;
     
     
 } 
@@ -521,6 +522,7 @@ padding:120px 0;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
     
 }
 .footer-socials-list {
